@@ -1,0 +1,149 @@
+/* chú thích
+đã chú thích *Sửa lại lúc 14-11-200-* */
+
+*{
+   padding: 0;
+   margin: 0;
+}
+a:hover{
+   text-decoration: none;
+}
+.title-img{
+   height: 160px;
+   width: 100%;
+   background-image: url("../imgs/background-img1.jpg");
+   background-size: cover; 
+   /* position: sticky;         *Sửa lại lúc 14-11-200-*
+   top: 0; */
+}
+.title-img-avatar{
+   width: 100px;
+   border-radius: 50%;
+   display: block; 
+   margin-left: auto; 
+   margin-right: auto;
+}
+.title-img-author{
+   text-align: center;
+   margin-bottom: 0;
+   color: #ffffff;
+}
+.title-img-email{
+   text-align: center;
+   color: #ffffff;
+}
+/* .navbar-positon{
+   position: sticky;
+   top: 160px;                     *Sửa lại lúc 14-11-200-*
+} */
+.title-sm-12{ 
+  /* padding-left: 0;                  *Sửa lại lúc 14-11-200-* */
+   padding-bottom: 20px;
+}
+.title-top{
+   background-color: coral;
+   height: 50px;
+}
+.far-icon{
+   float: right;
+   font-size: 38px;
+   margin-right: 70px;
+   margin-top: 7px;
+   color: #ffffff;
+}
+.order-restaurant{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-bottom: brown dashed 0.1rem;
+   padding-bottom: 10px;
+}
+.order-restaurant_h1{
+   color:#7a4040;
+}
+.frames_a:hover{
+   text-decoration: none;
+}
+.frames-img-1{
+   background-color: #365985;
+   border-radius: 10px;
+}
+.frames-img-2{
+   background-color: saddlebrown;
+   border-radius: 10px;
+}
+.frames-img-3{
+   background-color: seagreen;
+   border-radius: 10px;
+}
+.frames-img-4{
+   background-color: slategrey;
+   border-radius: 10px;
+}
+.frames-img_img{
+   width: 30%;
+   margin-left: 5px;
+}
+.frames-img_img_menu, .frames-img_img_type{
+   width: 28%;
+   margin-left: 5px;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+.frames-img_span{
+   color: white;
+   font-size: 1.2rem;
+}
+.table-product{
+   margin-top: 40px;
+}
+.table-link{
+   color: black;
+}
+.table-link:hover{
+   color: black;
+   text-decoration: none;
+}
+
+
+/* Cải tiến mới 14-11-2000 */
+.content{
+   display: flex;
+   
+}
+.menu{
+   width: 240px; 
+   position: sticky;
+   top: 0px;  
+}
+.menu-fixed{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   background-color:#343a40;
+}
+/* -------------------------------------------------Phần create------------------------------------------------- */
+.input_text{
+   width: 50%;
+}
+.h2_text{
+   color: #7a4040;
+}
+.add-new{
+   float: right;
+   width: 120px;
+   height: 56px;
+   background-color: #7a4040;
+   margin-bottom: 10px;
+   text-align: center;
+   padding-top: 14px;
+   border-radius: 50px;
+}
+.add-new:hover{
+   background-color: #365985;
+}
+.add-new-text{
+   color: #ffffff;
+}
+.form{
+   clear: right;
+}
